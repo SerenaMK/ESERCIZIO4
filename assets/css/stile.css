@@ -21,15 +21,25 @@ header, main, footer {
     line-height: 20px;
 }
 
+hr {
+    border: transparent;
+}
+
 
 /* HEADER */
 
 header {
     background-image: linear-gradient(#01AACD, #006688);
     padding: 20px;
+    padding-bottom: 5px;
     text-align: center;
     color: white;
     text-transform: uppercase;
+    font-weight: bold;
+}
+
+header p {
+    margin-top: 20px;
 }
 
 header a {
@@ -38,7 +48,7 @@ header a {
 }
 
 nav {
-    padding: 20px;
+    padding: 0px;
 }
 
 header li {
@@ -46,11 +56,11 @@ header li {
 }
 
 header li::before {
-    content: "⇒"
+    content: "⇒ "
 }
 
 header li::after {
-    content: "⇐"
+    content: " ⇐"
 }
 
 /* MAIN */
