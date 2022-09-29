@@ -21,6 +21,15 @@ hr {
     border: transparent;
 }
 
+a {
+    color: #01AACD;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 
 /* HEADER */
 
@@ -96,7 +105,7 @@ p, ul, ol, table, h2, iframe, section {
 
 li {
     margin-left: 25px;
-    line-height: 20px;
+    line-height: 22px;
 }
 
 code {
@@ -181,11 +190,6 @@ aside div {
     background-color: #E3E4E5;
     border: 1px solid #C5C2C2;
     margin-bottom: 15px;
-}
-
-aside a {
-    color: #01AACD;
-    font-weight: bold;
 }
 
 .data {
