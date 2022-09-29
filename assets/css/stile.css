@@ -121,6 +121,7 @@ th {
     background-color: #416ECA;
     color: white;
     padding: 15px;
+    vertical-align: bottom;
 }
 
 td {
